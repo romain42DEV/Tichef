@@ -45,6 +45,8 @@
 
             <div class="w-30">
                 <h2 class="orange">${recette.nom}</h2>
+                <i class="ph-fill ph-heart"></i>
+                <i class="ph-fill ph-share-network"></i>
                 <img src="${recette.img[0]}" alt="" class="w-100 mt-10">
 
                 <div class="flex space-between">
@@ -55,7 +57,7 @@
             </div>
 
             <div class="w-30 mt-50">
-                <p class="orange">${recette.portions} parts ${recette.tempCuisson} ${recette.tempPreparation}</p>
+                <p class="orange font-size-12"><i class="ph-fill ph-fork-knife"> </i>${recette.portions} parts <i class="ph-fill ph-fire"></i> ${recette.tempCuisson} <i class="ph-fill ph-alarm"></i> ${recette.tempPreparation}</p>
                 <h3 class="mt-10 orange">Details</h3>
                 <p class="mt-10 orange">${recette.desc}</p>
                 <h3 class="mt-10 orange">Ingrédients</h3>
