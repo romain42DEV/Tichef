@@ -44,7 +44,7 @@
             <div class="card flex space-between">
 
             <div class="w-30">
-                <h2>${recette.nom}</h2>
+                <h2 class="orange">${recette.nom}</h2>
                 <img src="${recette.img[0]}" alt="" class="w-100 mt-10">
 
                 <div class="flex space-between">
@@ -55,17 +55,17 @@
             </div>
 
             <div class="w-30 mt-50">
-                <p>${recette.portions} parts ${recette.tempCuisson} ${recette.tempPreparation}</p>
-                <h3 class="mt-10">Details</h3>
-                <p class="mt-10">${recette.desc}</p>
-                <h3 class="mt-10">Ingrédients</h3>
+                <p class="orange">${recette.portions} parts ${recette.tempCuisson} ${recette.tempPreparation}</p>
+                <h3 class="mt-10 orange">Details</h3>
+                <p class="mt-10 orange">${recette.desc}</p>
+                <h3 class="mt-10 orange">Ingrédients</h3>
                 <ul class="mt-10 ml-15">
                     ${ingredientsListe}
                 </ul>
             </div>
 
             <div class="w-30 mt-50">
-                <h3>Etapes</h3>
+                <h3 class="orange">Étapes</h3>
                 <ol class="mt-10 ml-15">
                     ${etapesListe}
                 </ol>
@@ -75,4 +75,4 @@
             `
             document.querySelector("#recette-container").innerHTML += recetteCard;
         });
-    };
+    }

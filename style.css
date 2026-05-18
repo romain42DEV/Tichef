@@ -23,6 +23,10 @@
     align-items: center;
 }
 
+.orange {
+    color: #FD8D5D;
+}
+
 .w-100 {
     width: 100%;
 }
