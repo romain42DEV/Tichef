@@ -55,7 +55,7 @@
             </div>
 
             <div class="w-30 mt-50">
-                <p>${recette.portions}&nbspparts&nbsp&nbsp&nbsp${recette.tempCuisson}&nbsp&nbsp&nbsp${recette.tempPreparation}</p>
+                <p>${recette.portions} parts ${recette.tempCuisson} ${recette.tempPreparation}</p>
                 <h3 class="mt-10">Details</h3>
                 <p class="mt-10">${recette.desc}</p>
                 <h3 class="mt-10">Ingrédients</h3>
